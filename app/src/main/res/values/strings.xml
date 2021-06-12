@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Clumber</string>
+    <string name="hint_nickname">Nickname</string>
+    <string name="hint_secure_code">Secure Code</string>
+    <string name="hint_under_secure_code">Tap in the same code with your friends to establish a secure connection with them!</string>
+    <string name="hint_title_entry_awaiting_friends">Awaiting friends</string>
+    <string name="hint_description_entry_awaiting_friends">Invite friends by sharing the code.</string>
+    <string name="hint_title_entry_awaiting_key_exchange">Initializing</string>
+    <string name="hint_description_entry_awaiting_key_exchange">Already connected with a friend. \n\nExchanging cryptographic keys, please wait.</string>
+    <string name="hint_enter_a_message">Type a message…</string>
+    <string name="hint_copied_message">Message copied!</string>
+    <string name="hint_user_exited">Your friend left the chatroom. The connection has been closed.</string>
+    <string name="hint_title_confirm_exit_chatroom">Sure to exit?</string>
+    <string name="hint_description_confirm_exit_chatroom">You won\'t be able to resume this conversation. All your messages will be lost.</string>
+    <string name="hint_confirm_clear_messages">Clear all messages?</string>
+    <string name="hint_title_clumber_introduction">What is Clumber?</string>
+    <string name="hint_description_clumber_introduction">Clumber is an easy, secure messaging app for people to chat online. \n\nWith the help of end-to-end encryption, Clumber ensures that no one unauthorized can see your private message. No message will be saved on our server or on your phone. When you exit Clumber, everything is gone. </string>
+    <string name="hint_connection_ok">Connection OK</string>
+    <string name="hint_connection_status">Connection Status</string>
+    <string name="hint_successfully_connected_to_server">Successfully established encrypted connection with server.</string>
+    <string name="hint_title_new_version">New version available</string>
+    <string name="hint_description_old_version_name_new_version">Current:</string>
+    <string name="hint_description_new_version_name_new_version">Latest:</string>
+
+    <string name="notification_channel_name">Messages</string>
+    <string name="notification_new_message">New message</string>
+    <string name="notification_new_message_from">From</string>
+
+    <string name="action_connect">Connect</string>
+    <string name="action_ok">OK</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_help">Help</string>
+    <string name="action_update">Update</string>
+
+    <string name="error_hint_title_invalid_nickname">Invalid nickname</string>
+    <string name="error_hint_description_invalid_nickname">Nickname must be 2 or more characters which starts with a letter and contains only letters, digits, _ or -.</string>
+    <string name="error_hint_title_invalid_secure_code">Invalid secure code</string>
+    <string name="error_hint_description_invalid_secure_code">Secure code must be 4 or more characters which contains letters or digits.</string>
+    <string name="error_hint_title_socket_connection">Server unreachable</string>
+    <string name="error_hint_description_socket_connection">Clumber works only when Internet is available. Please check your Internet connection or try again later.</string>
+    <string name="error_hint_title_entry_name_occupied">Nickname occupied</string>
+    <string name="error_hint_description_entry_name_occupied">Please use another nickname.</string>
+    <string name="error_hint_title_entry_code_occupied">Secure code occupied</string>
+    <string name="error_hint_description_entry_code_occupied">Please use another code.\nNote: This could happen if you are connecting with your friend and his code is stolen. In this case, please inform your friend immediately and reconnect.</string>
+</resources>
